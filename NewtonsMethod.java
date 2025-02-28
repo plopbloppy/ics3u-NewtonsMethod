@@ -2,9 +2,10 @@ import java.util.Scanner;
 
 public class NewtonsMethod {
     public static void main(String[] args) throws Exception {
+        Scanner keyboard = new Scanner(System.in);
+
         main:
         while (true) {
-            Scanner keyboard = new Scanner(System.in);
             System.out.println("Please enter your guess:");
             double x = keyboard.nextDouble();
             
